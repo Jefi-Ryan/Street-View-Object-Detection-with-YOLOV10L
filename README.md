@@ -1,5 +1,6 @@
 # Street-View-Object-Detection-with-YOLOV10L
 I trained a YOLO V10 Large model for object detection in street view 
+It detects bicycle, car, bus, motorbike, people
 
 Here are the results:
 ### Predictions
@@ -9,7 +10,12 @@ Here are the results:
 
 ![val_batch2_labels](https://github.com/Jefi-Ryan/Street-View-Object-Detection-with-YOLOV10L/assets/114754832/b5dfac14-d202-49f7-bb05-033eae1efd5b)
 
-
+# Performance
+`precision` : `0.9343398194907915`
+`recall`    : `0.9224095605413212`
+`mAP50`     : `0.9520926126705234`
+`mAP50-95`  : `0.8074918550562162`
+`fitness`   : `0.821951930817647`
 
 ![F1_curve](https://github.com/Jefi-Ryan/Street-View-Object-Detection-with-YOLOV10L/assets/114754832/912a0751-ee48-4262-8b21-efa58f3a6261)
 ![P_curve](https://github.com/Jefi-Ryan/Street-View-Object-Detection-with-YOLOV10L/assets/114754832/00efc2bf-c2fb-46c4-beba-ef549a4340e6)
