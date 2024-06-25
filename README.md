@@ -1,21 +1,20 @@
-# Street-View-Object-Detection-with-YOLOV10L
-I trained a YOLO V10 Large model for object detection in street view 
-It detects bicycle, car, bus, motorbike, people
+# Street View Object Detection with YOLO v10 Large
 
-Here are the results:
-### Predictions
+I trained a YOLO V10 Large model for object detection in street view. It detects bicycles, cars, buses, motorbikes, and people.
+
+## Predictions
 ![val_batch0_labels](https://github.com/Jefi-Ryan/Street-View-Object-Detection-with-YOLOV10L/assets/114754832/aaae059b-aa9f-4ef9-8e9d-402e634829cd)
 
 ![val_batch1_labels](https://github.com/Jefi-Ryan/Street-View-Object-Detection-with-YOLOV10L/assets/114754832/afc0564e-6e99-481f-be44-6e54f98470b6)
 
 ![val_batch2_labels](https://github.com/Jefi-Ryan/Street-View-Object-Detection-with-YOLOV10L/assets/114754832/b5dfac14-d202-49f7-bb05-033eae1efd5b)
 
-# Performance
-`precision` : `0.9343398194907915`
-`recall`    : `0.9224095605413212`
-`mAP50`     : `0.9520926126705234`
-`mAP50-95`  : `0.8074918550562162`
-`fitness`   : `0.821951930817647`
+## Performance
+- **Precision**: `0.9343398194907915`
+- **Recall**: `0.9224095605413212`
+- **mAP50**: `0.9520926126705234`
+- **mAP50-95**: `0.8074918550562162`
+- **Fitness**: `0.821951930817647`
 
 ![F1_curve](https://github.com/Jefi-Ryan/Street-View-Object-Detection-with-YOLOV10L/assets/114754832/912a0751-ee48-4262-8b21-efa58f3a6261)
 ![P_curve](https://github.com/Jefi-Ryan/Street-View-Object-Detection-with-YOLOV10L/assets/114754832/00efc2bf-c2fb-46c4-beba-ef549a4340e6)
